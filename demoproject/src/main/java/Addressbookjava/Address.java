@@ -62,7 +62,7 @@ public class Address
 	    {
 	        Zip = zip_code;
 	    }
-	 // TODO Auto-generated method stub
+	 
 	    public int getZip() 
 	    {
 	        return Zip;

@@ -2,7 +2,7 @@ package Addressbookjava;
 
 import java.util.HashMap;
 
-public class MapAddressStore implements AddressStore
+public  class MapAddressStore implements AddressStore
 {
 	
 

@@ -78,8 +78,16 @@ public void updateTest()
 	public void deleteTest()
    {
 	Address address1=new Address();
-	address1.name="vinay";
-	int id=mySqlAddressStoreObj.delete(address1.name);
-	assertTrue(id==0);
+	address1.id=1;
+	address1.name="Rajat";
+	address1.street="kp";
+	address1.city="Pune";
+	address1.country="india";
+	address1.Zip=41001;
+
+	int id=mySqlAddressStoreObj.add(address1);
+	address1.name="rohan";
+	int id1=mySqlAddressStoreObj.delete(address1.name);
+	assertTrue(id1==0);
 		}
 }
